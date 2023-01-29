@@ -12,7 +12,7 @@ public abstract class StateMachine : MonoBehaviour {
 
     public void SwitchState(State newState) {
         _currentState?.Exit();
-        _currentState = newState();
+        _currentState = newState;
         _currentState?.Enter();
     }
 }
