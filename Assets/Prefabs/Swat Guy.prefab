@@ -78,7 +78,7 @@ GameObject:
   - component: {fileID: 9124648480799158820}
   m_Layer: 0
   m_Name: Swat Guy
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -566,7 +566,7 @@ Animator:
   m_GameObject: {fileID: 1433401331397974321}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 62668a0e55eba166abcacaf84d575301, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1b930cdddf3dedff8a16484d1d23ff37, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
