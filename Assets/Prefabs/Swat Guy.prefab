@@ -78,7 +78,7 @@ GameObject:
   - component: {fileID: 9124648480799158820}
   m_Layer: 0
   m_Name: Swat Guy
-  m_TagString: Player
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -114,7 +114,7 @@ MonoBehaviour:
   <InputReader>k__BackingField: {fileID: 2784971974895115503}
   <CharacterController>k__BackingField: {fileID: 9124648480799158820}
   <Animator>k__BackingField: {fileID: 8579186835097785336}
-  <MovomentSpeed>k__BackingField: 10
+  <MovementSpeed>k__BackingField: 10
 --- !u!114 &2784971974895115503
 MonoBehaviour:
   m_ObjectHideFlags: 0
