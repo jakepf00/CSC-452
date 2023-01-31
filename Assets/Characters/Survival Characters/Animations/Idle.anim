@@ -45,7 +45,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: 
+    path: hips
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -70,7 +70,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root
+    path: hips/root
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -104,7 +104,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1
+    path: hips/root/Spine1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -138,7 +138,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2
+    path: hips/root/Spine1/Spine2
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -172,7 +172,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest
+    path: hips/root/Spine1/Spine2/Chest
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -206,7 +206,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/Neck
+    path: hips/root/Spine1/Spine2/Chest/Neck
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -240,7 +240,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/Neck/Head
+    path: hips/root/Spine1/Spine2/Chest/Neck/Head
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -292,7 +292,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_r
+    path: hips/root/Spine1/Spine2/Chest/chest_r
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -344,7 +344,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -387,7 +387,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -430,7 +430,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -455,7 +455,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -480,7 +480,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1/little_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1/little_r_2
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -505,7 +505,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1/little_r_2/little_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1/little_r_2/little_r_3
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -530,7 +530,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -555,7 +555,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1/ring_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1/ring_r_2
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -580,7 +580,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1/ring_r_2/ring_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1/ring_r_2/ring_r_3
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -605,7 +605,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -630,7 +630,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1/middle_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1/middle_r_2
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -655,7 +655,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1/middle_r_2/middle_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1/middle_r_2/middle_r_3
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -680,7 +680,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -705,7 +705,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1/index_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1/index_r_2
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -730,7 +730,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1/index_r_2/index_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1/index_r_2/index_r_3
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -755,7 +755,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -780,7 +780,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1/thumb_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1/thumb_r_2
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -805,7 +805,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1/thumb_r_2/thumb_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1/thumb_r_2/thumb_r_3
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -848,7 +848,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_l
+    path: hips/root/Spine1/Spine2/Chest/chest_l
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -891,7 +891,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -925,7 +925,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -968,7 +968,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -993,7 +993,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1018,7 +1018,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1/little_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1/little_l_2
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1043,7 +1043,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1/little_l_2/little_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1/little_l_2/little_l_3
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1068,7 +1068,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1093,7 +1093,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1/ring_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1/ring_l_2
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1118,7 +1118,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1/ring_l_2/ring_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1/ring_l_2/ring_l_3
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1143,7 +1143,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1168,7 +1168,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1/middle_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1/middle_l_2
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1193,7 +1193,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1/middle_l_2/middle_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1/middle_l_2/middle_l_3
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1218,7 +1218,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1243,7 +1243,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1/index_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1/index_l_2
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1268,7 +1268,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1/index_l_2/index_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1/index_l_2/index_l_3
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1293,7 +1293,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1318,7 +1318,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1/thumb_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1/thumb_l_2
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1343,7 +1343,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1/thumb_l_2/thumb_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1/thumb_l_2/thumb_l_3
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1377,7 +1377,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Thigh.R
+    path: hips/root/Thigh.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1411,7 +1411,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Thigh.R/Shin.R
+    path: hips/root/Thigh.R/Shin.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1445,7 +1445,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Thigh.R/Shin.R/Foot.R
+    path: hips/root/Thigh.R/Shin.R/Foot.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1470,7 +1470,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Thigh.R/Shin.R/Foot.R/Toe.R
+    path: hips/root/Thigh.R/Shin.R/Foot.R/Toe.R
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1504,7 +1504,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Thigh.L
+    path: hips/root/Thigh.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1538,7 +1538,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Thigh.L/Shin.L
+    path: hips/root/Thigh.L/Shin.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1572,7 +1572,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Thigh.L/Shin.L/Foot.L
+    path: hips/root/Thigh.L/Shin.L/Foot.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1597,7 +1597,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: root/Thigh.L/Shin.L/Foot.L/Toe.L
+    path: hips/root/Thigh.L/Shin.L/Foot.L/Toe.L
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -1622,7 +1622,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: FOOT_IK_L_TARGET
+    path: hips/FOOT_IK_L_TARGET
   m_CompressedRotationCurves: []
   m_EulerCurves: []
   m_PositionCurves:
@@ -1677,7 +1677,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: 
+    path: hips
   m_ScaleCurves: []
   m_FloatCurves: []
   m_PPtrCurves: []
@@ -1689,385 +1689,385 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 0
+      path: 2128849199
       attribute: 1
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 0
+      path: 2128849199
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1105970852
+      path: 1061002207
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 194141982
+      path: 3635977648
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 589070545
+      path: 3550449607
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 3599574046
+      path: 2525041166
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1832465078
+      path: 570078248
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1406212560
+      path: 3479005118
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2324951273
+      path: 1361072304
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1141554199
+      path: 336729474
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1658081539
+      path: 2058001247
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2849907891
+      path: 894589661
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 3335864200
+      path: 493264849
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 3251563275
+      path: 2446738078
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 4013730439
+      path: 4148322523
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 339033949
+      path: 3550233012
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 206601656
+      path: 1038997909
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 247918176
+      path: 2195830437
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 3996779070
+      path: 697531607
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2674811842
+      path: 2933114863
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 887715616
+      path: 3100520421
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 385153371
+      path: 3689528660
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 3889601373
+      path: 1842378767
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 245825941
+      path: 1128346522
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 3473149386
+      path: 3410920532
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1084336001
+      path: 1819501980
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1547409550
+      path: 1963305667
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2546257290
+      path: 2802775851
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 326196614
+      path: 2574761684
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1480270786
+      path: 366809549
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2657524528
+      path: 2586579630
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1050263867
+      path: 1572044576
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1087128716
+      path: 3452702074
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 3602053006
+      path: 1343239486
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2731800494
+      path: 3254340021
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 907692673
+      path: 3139044215
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 940444595
+      path: 3198994691
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2536150956
+      path: 489452798
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2533127891
+      path: 3675931868
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 4290166290
+      path: 4227610508
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1572904914
+      path: 1897029071
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 3321722267
+      path: 3972220886
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 3931806020
+      path: 3666912229
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1670205815
+      path: 3918246437
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 3227538564
+      path: 2374395531
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2933139688
+      path: 2862522742
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1788350107
+      path: 162705536
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2204287364
+      path: 241338482
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 3173846184
+      path: 999280152
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 4140972046
+      path: 2516092437
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 4122267529
+      path: 2025096831
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1402073237
+      path: 3576902181
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 4013441557
+      path: 1941191803
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 399830869
+      path: 2337837371
       attribute: 2
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1436083593
+      path: 3662020306
       attribute: 2
       script: {fileID: 0}
       typeID: 4
@@ -2129,7 +2129,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: 
+    path: hips
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2166,7 +2166,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: 
+    path: hips
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2203,7 +2203,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: 
+    path: hips
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2240,7 +2240,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: 
+    path: hips
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2268,7 +2268,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root
+    path: hips/root
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2296,7 +2296,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root
+    path: hips/root
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2324,7 +2324,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root
+    path: hips/root
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2352,7 +2352,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root
+    path: hips/root
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2389,7 +2389,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1
+    path: hips/root/Spine1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2426,7 +2426,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1
+    path: hips/root/Spine1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2463,7 +2463,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1
+    path: hips/root/Spine1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2500,7 +2500,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1
+    path: hips/root/Spine1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2537,7 +2537,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2
+    path: hips/root/Spine1/Spine2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2574,7 +2574,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2
+    path: hips/root/Spine1/Spine2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2611,7 +2611,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2
+    path: hips/root/Spine1/Spine2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2648,7 +2648,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2
+    path: hips/root/Spine1/Spine2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2685,7 +2685,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest
+    path: hips/root/Spine1/Spine2/Chest
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2722,7 +2722,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest
+    path: hips/root/Spine1/Spine2/Chest
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2759,7 +2759,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest
+    path: hips/root/Spine1/Spine2/Chest
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2796,7 +2796,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest
+    path: hips/root/Spine1/Spine2/Chest
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2833,7 +2833,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/Neck
+    path: hips/root/Spine1/Spine2/Chest/Neck
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2870,7 +2870,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/Neck
+    path: hips/root/Spine1/Spine2/Chest/Neck
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2907,7 +2907,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/Neck
+    path: hips/root/Spine1/Spine2/Chest/Neck
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2944,7 +2944,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/Neck
+    path: hips/root/Spine1/Spine2/Chest/Neck
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -2981,7 +2981,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/Neck/Head
+    path: hips/root/Spine1/Spine2/Chest/Neck/Head
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3018,7 +3018,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/Neck/Head
+    path: hips/root/Spine1/Spine2/Chest/Neck/Head
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3055,7 +3055,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/Neck/Head
+    path: hips/root/Spine1/Spine2/Chest/Neck/Head
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3092,7 +3092,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/Neck/Head
+    path: hips/root/Spine1/Spine2/Chest/Neck/Head
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3147,7 +3147,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_r
+    path: hips/root/Spine1/Spine2/Chest/chest_r
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3202,7 +3202,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_r
+    path: hips/root/Spine1/Spine2/Chest/chest_r
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3257,7 +3257,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_r
+    path: hips/root/Spine1/Spine2/Chest/chest_r
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3312,7 +3312,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_r
+    path: hips/root/Spine1/Spine2/Chest/chest_r
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3367,7 +3367,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3422,7 +3422,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3477,7 +3477,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3532,7 +3532,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3578,7 +3578,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3624,7 +3624,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3670,7 +3670,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3716,7 +3716,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3762,7 +3762,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3808,7 +3808,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3854,7 +3854,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3900,7 +3900,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3928,7 +3928,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3956,7 +3956,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -3984,7 +3984,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4012,7 +4012,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4040,7 +4040,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1/little_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1/little_r_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4068,7 +4068,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1/little_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1/little_r_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4096,7 +4096,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1/little_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1/little_r_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4124,7 +4124,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1/little_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1/little_r_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4152,7 +4152,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1/little_r_2/little_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1/little_r_2/little_r_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4180,7 +4180,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1/little_r_2/little_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1/little_r_2/little_r_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4208,7 +4208,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1/little_r_2/little_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1/little_r_2/little_r_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4236,7 +4236,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1/little_r_2/little_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1/little_r_2/little_r_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4264,7 +4264,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4292,7 +4292,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4320,7 +4320,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4348,7 +4348,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4376,7 +4376,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1/ring_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1/ring_r_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4404,7 +4404,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1/ring_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1/ring_r_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4432,7 +4432,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1/ring_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1/ring_r_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4460,7 +4460,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1/ring_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1/ring_r_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4488,7 +4488,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1/ring_r_2/ring_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1/ring_r_2/ring_r_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4516,7 +4516,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1/ring_r_2/ring_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1/ring_r_2/ring_r_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4544,7 +4544,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1/ring_r_2/ring_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1/ring_r_2/ring_r_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4572,7 +4572,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1/ring_r_2/ring_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1/ring_r_2/ring_r_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4600,7 +4600,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4628,7 +4628,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4656,7 +4656,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4684,7 +4684,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4712,7 +4712,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1/middle_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1/middle_r_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4740,7 +4740,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1/middle_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1/middle_r_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4768,7 +4768,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1/middle_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1/middle_r_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4796,7 +4796,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1/middle_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1/middle_r_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4824,7 +4824,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1/middle_r_2/middle_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1/middle_r_2/middle_r_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4852,7 +4852,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1/middle_r_2/middle_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1/middle_r_2/middle_r_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4880,7 +4880,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1/middle_r_2/middle_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1/middle_r_2/middle_r_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4908,7 +4908,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1/middle_r_2/middle_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1/middle_r_2/middle_r_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4936,7 +4936,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4964,7 +4964,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -4992,7 +4992,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5020,7 +5020,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5048,7 +5048,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1/index_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1/index_r_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5076,7 +5076,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1/index_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1/index_r_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5104,7 +5104,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1/index_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1/index_r_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5132,7 +5132,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1/index_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1/index_r_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5160,7 +5160,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1/index_r_2/index_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1/index_r_2/index_r_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5188,7 +5188,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1/index_r_2/index_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1/index_r_2/index_r_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5216,7 +5216,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1/index_r_2/index_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1/index_r_2/index_r_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5244,7 +5244,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1/index_r_2/index_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1/index_r_2/index_r_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5272,7 +5272,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5300,7 +5300,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5328,7 +5328,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5356,7 +5356,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5384,7 +5384,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1/thumb_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1/thumb_r_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5412,7 +5412,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1/thumb_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1/thumb_r_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5440,7 +5440,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1/thumb_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1/thumb_r_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5468,7 +5468,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1/thumb_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1/thumb_r_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5496,7 +5496,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1/thumb_r_2/thumb_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1/thumb_r_2/thumb_r_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5524,7 +5524,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1/thumb_r_2/thumb_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1/thumb_r_2/thumb_r_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5552,7 +5552,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1/thumb_r_2/thumb_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1/thumb_r_2/thumb_r_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5580,7 +5580,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1/thumb_r_2/thumb_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1/thumb_r_2/thumb_r_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5626,7 +5626,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_l
+    path: hips/root/Spine1/Spine2/Chest/chest_l
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5672,7 +5672,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_l
+    path: hips/root/Spine1/Spine2/Chest/chest_l
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5718,7 +5718,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_l
+    path: hips/root/Spine1/Spine2/Chest/chest_l
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5764,7 +5764,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_l
+    path: hips/root/Spine1/Spine2/Chest/chest_l
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5810,7 +5810,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5856,7 +5856,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5902,7 +5902,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5948,7 +5948,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -5985,7 +5985,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6022,7 +6022,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6059,7 +6059,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6096,7 +6096,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6142,7 +6142,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6188,7 +6188,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6234,7 +6234,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6280,7 +6280,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6308,7 +6308,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6336,7 +6336,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6364,7 +6364,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6392,7 +6392,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6420,7 +6420,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1/little_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1/little_l_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6448,7 +6448,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1/little_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1/little_l_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6476,7 +6476,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1/little_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1/little_l_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6504,7 +6504,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1/little_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1/little_l_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6532,7 +6532,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1/little_l_2/little_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1/little_l_2/little_l_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6560,7 +6560,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1/little_l_2/little_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1/little_l_2/little_l_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6588,7 +6588,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1/little_l_2/little_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1/little_l_2/little_l_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6616,7 +6616,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1/little_l_2/little_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1/little_l_2/little_l_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6644,7 +6644,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6672,7 +6672,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6700,7 +6700,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6728,7 +6728,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6756,7 +6756,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1/ring_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1/ring_l_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6784,7 +6784,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1/ring_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1/ring_l_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6812,7 +6812,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1/ring_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1/ring_l_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6840,7 +6840,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1/ring_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1/ring_l_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6868,7 +6868,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1/ring_l_2/ring_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1/ring_l_2/ring_l_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6896,7 +6896,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1/ring_l_2/ring_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1/ring_l_2/ring_l_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6924,7 +6924,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1/ring_l_2/ring_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1/ring_l_2/ring_l_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6952,7 +6952,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1/ring_l_2/ring_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1/ring_l_2/ring_l_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -6980,7 +6980,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7008,7 +7008,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7036,7 +7036,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7064,7 +7064,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7092,7 +7092,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1/middle_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1/middle_l_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7120,7 +7120,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1/middle_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1/middle_l_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7148,7 +7148,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1/middle_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1/middle_l_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7176,7 +7176,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1/middle_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1/middle_l_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7204,7 +7204,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1/middle_l_2/middle_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1/middle_l_2/middle_l_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7232,7 +7232,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1/middle_l_2/middle_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1/middle_l_2/middle_l_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7260,7 +7260,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1/middle_l_2/middle_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1/middle_l_2/middle_l_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7288,7 +7288,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1/middle_l_2/middle_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1/middle_l_2/middle_l_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7316,7 +7316,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7344,7 +7344,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7372,7 +7372,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7400,7 +7400,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7428,7 +7428,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1/index_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1/index_l_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7456,7 +7456,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1/index_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1/index_l_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7484,7 +7484,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1/index_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1/index_l_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7512,7 +7512,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1/index_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1/index_l_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7540,7 +7540,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1/index_l_2/index_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1/index_l_2/index_l_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7568,7 +7568,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1/index_l_2/index_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1/index_l_2/index_l_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7596,7 +7596,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1/index_l_2/index_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1/index_l_2/index_l_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7624,7 +7624,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1/index_l_2/index_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1/index_l_2/index_l_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7652,7 +7652,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7680,7 +7680,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7708,7 +7708,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7736,7 +7736,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7764,7 +7764,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1/thumb_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1/thumb_l_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7792,7 +7792,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1/thumb_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1/thumb_l_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7820,7 +7820,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1/thumb_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1/thumb_l_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7848,7 +7848,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1/thumb_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1/thumb_l_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7876,7 +7876,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1/thumb_l_2/thumb_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1/thumb_l_2/thumb_l_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7904,7 +7904,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1/thumb_l_2/thumb_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1/thumb_l_2/thumb_l_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7932,7 +7932,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1/thumb_l_2/thumb_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1/thumb_l_2/thumb_l_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7960,7 +7960,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1/thumb_l_2/thumb_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1/thumb_l_2/thumb_l_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7997,7 +7997,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Thigh.R
+    path: hips/root/Thigh.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8034,7 +8034,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Thigh.R
+    path: hips/root/Thigh.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8071,7 +8071,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Thigh.R
+    path: hips/root/Thigh.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8108,7 +8108,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Thigh.R
+    path: hips/root/Thigh.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8145,7 +8145,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Thigh.R/Shin.R
+    path: hips/root/Thigh.R/Shin.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8182,7 +8182,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Thigh.R/Shin.R
+    path: hips/root/Thigh.R/Shin.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8219,7 +8219,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Thigh.R/Shin.R
+    path: hips/root/Thigh.R/Shin.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8256,7 +8256,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Thigh.R/Shin.R
+    path: hips/root/Thigh.R/Shin.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8293,7 +8293,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Thigh.R/Shin.R/Foot.R
+    path: hips/root/Thigh.R/Shin.R/Foot.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8330,7 +8330,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Thigh.R/Shin.R/Foot.R
+    path: hips/root/Thigh.R/Shin.R/Foot.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8367,7 +8367,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Thigh.R/Shin.R/Foot.R
+    path: hips/root/Thigh.R/Shin.R/Foot.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8404,7 +8404,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Thigh.R/Shin.R/Foot.R
+    path: hips/root/Thigh.R/Shin.R/Foot.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8432,7 +8432,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Thigh.R/Shin.R/Foot.R/Toe.R
+    path: hips/root/Thigh.R/Shin.R/Foot.R/Toe.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8460,7 +8460,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Thigh.R/Shin.R/Foot.R/Toe.R
+    path: hips/root/Thigh.R/Shin.R/Foot.R/Toe.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8488,7 +8488,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Thigh.R/Shin.R/Foot.R/Toe.R
+    path: hips/root/Thigh.R/Shin.R/Foot.R/Toe.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8516,7 +8516,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Thigh.R/Shin.R/Foot.R/Toe.R
+    path: hips/root/Thigh.R/Shin.R/Foot.R/Toe.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8553,7 +8553,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Thigh.L
+    path: hips/root/Thigh.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8590,7 +8590,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Thigh.L
+    path: hips/root/Thigh.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8627,7 +8627,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Thigh.L
+    path: hips/root/Thigh.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8664,7 +8664,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Thigh.L
+    path: hips/root/Thigh.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8701,7 +8701,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Thigh.L/Shin.L
+    path: hips/root/Thigh.L/Shin.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8738,7 +8738,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Thigh.L/Shin.L
+    path: hips/root/Thigh.L/Shin.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8775,7 +8775,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Thigh.L/Shin.L
+    path: hips/root/Thigh.L/Shin.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8812,7 +8812,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Thigh.L/Shin.L
+    path: hips/root/Thigh.L/Shin.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8849,7 +8849,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Thigh.L/Shin.L/Foot.L
+    path: hips/root/Thigh.L/Shin.L/Foot.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8886,7 +8886,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Thigh.L/Shin.L/Foot.L
+    path: hips/root/Thigh.L/Shin.L/Foot.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8923,7 +8923,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Thigh.L/Shin.L/Foot.L
+    path: hips/root/Thigh.L/Shin.L/Foot.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8960,7 +8960,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Thigh.L/Shin.L/Foot.L
+    path: hips/root/Thigh.L/Shin.L/Foot.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -8988,7 +8988,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: root/Thigh.L/Shin.L/Foot.L/Toe.L
+    path: hips/root/Thigh.L/Shin.L/Foot.L/Toe.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9016,7 +9016,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: root/Thigh.L/Shin.L/Foot.L/Toe.L
+    path: hips/root/Thigh.L/Shin.L/Foot.L/Toe.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9044,7 +9044,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: root/Thigh.L/Shin.L/Foot.L/Toe.L
+    path: hips/root/Thigh.L/Shin.L/Foot.L/Toe.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9072,7 +9072,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: root/Thigh.L/Shin.L/Foot.L/Toe.L
+    path: hips/root/Thigh.L/Shin.L/Foot.L/Toe.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9100,7 +9100,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: FOOT_IK_L_TARGET
+    path: hips/FOOT_IK_L_TARGET
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9128,7 +9128,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: FOOT_IK_L_TARGET
+    path: hips/FOOT_IK_L_TARGET
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9156,7 +9156,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: FOOT_IK_L_TARGET
+    path: hips/FOOT_IK_L_TARGET
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9184,7 +9184,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: FOOT_IK_L_TARGET
+    path: hips/FOOT_IK_L_TARGET
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9239,7 +9239,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: 
+    path: hips
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9294,7 +9294,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: 
+    path: hips
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9349,7 +9349,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: 
+    path: hips
     classID: 4
     script: {fileID: 0}
   m_EulerEditorCurves:
@@ -9387,7 +9387,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: 
+    path: hips
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9424,7 +9424,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: 
+    path: hips
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9461,7 +9461,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: 
+    path: hips
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9489,7 +9489,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root
+    path: hips/root
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9517,7 +9517,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root
+    path: hips/root
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9545,7 +9545,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root
+    path: hips/root
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9582,7 +9582,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1
+    path: hips/root/Spine1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9619,7 +9619,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1
+    path: hips/root/Spine1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9656,7 +9656,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1
+    path: hips/root/Spine1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9693,7 +9693,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2
+    path: hips/root/Spine1/Spine2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9730,7 +9730,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2
+    path: hips/root/Spine1/Spine2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9767,7 +9767,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2
+    path: hips/root/Spine1/Spine2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9804,7 +9804,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest
+    path: hips/root/Spine1/Spine2/Chest
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9841,7 +9841,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest
+    path: hips/root/Spine1/Spine2/Chest
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9878,7 +9878,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest
+    path: hips/root/Spine1/Spine2/Chest
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9915,7 +9915,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/Neck
+    path: hips/root/Spine1/Spine2/Chest/Neck
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9952,7 +9952,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/Neck
+    path: hips/root/Spine1/Spine2/Chest/Neck
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -9989,7 +9989,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/Neck
+    path: hips/root/Spine1/Spine2/Chest/Neck
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10026,7 +10026,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/Neck/Head
+    path: hips/root/Spine1/Spine2/Chest/Neck/Head
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10063,7 +10063,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/Neck/Head
+    path: hips/root/Spine1/Spine2/Chest/Neck/Head
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10100,7 +10100,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/Neck/Head
+    path: hips/root/Spine1/Spine2/Chest/Neck/Head
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10155,7 +10155,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_r
+    path: hips/root/Spine1/Spine2/Chest/chest_r
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10210,7 +10210,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_r
+    path: hips/root/Spine1/Spine2/Chest/chest_r
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10265,7 +10265,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_r
+    path: hips/root/Spine1/Spine2/Chest/chest_r
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10320,7 +10320,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10375,7 +10375,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10430,7 +10430,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10476,7 +10476,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10522,7 +10522,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10568,7 +10568,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10614,7 +10614,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10660,7 +10660,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10706,7 +10706,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10734,7 +10734,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10762,7 +10762,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10790,7 +10790,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10818,7 +10818,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1/little_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1/little_r_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10846,7 +10846,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1/little_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1/little_r_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10874,7 +10874,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1/little_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1/little_r_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10902,7 +10902,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1/little_r_2/little_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1/little_r_2/little_r_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10930,7 +10930,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1/little_r_2/little_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1/little_r_2/little_r_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10958,7 +10958,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1/little_r_2/little_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/little_r_1/little_r_2/little_r_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -10986,7 +10986,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11014,7 +11014,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11042,7 +11042,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11070,7 +11070,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1/ring_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1/ring_r_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11098,7 +11098,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1/ring_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1/ring_r_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11126,7 +11126,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1/ring_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1/ring_r_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11154,7 +11154,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1/ring_r_2/ring_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1/ring_r_2/ring_r_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11182,7 +11182,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1/ring_r_2/ring_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1/ring_r_2/ring_r_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11210,7 +11210,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1/ring_r_2/ring_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/ring_r_1/ring_r_2/ring_r_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11238,7 +11238,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11266,7 +11266,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11294,7 +11294,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11322,7 +11322,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1/middle_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1/middle_r_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11350,7 +11350,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1/middle_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1/middle_r_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11378,7 +11378,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1/middle_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1/middle_r_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11406,7 +11406,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1/middle_r_2/middle_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1/middle_r_2/middle_r_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11434,7 +11434,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1/middle_r_2/middle_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1/middle_r_2/middle_r_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11462,7 +11462,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1/middle_r_2/middle_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/middle_r_1/middle_r_2/middle_r_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11490,7 +11490,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11518,7 +11518,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11546,7 +11546,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11574,7 +11574,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1/index_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1/index_r_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11602,7 +11602,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1/index_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1/index_r_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11630,7 +11630,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1/index_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1/index_r_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11658,7 +11658,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1/index_r_2/index_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1/index_r_2/index_r_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11686,7 +11686,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1/index_r_2/index_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1/index_r_2/index_r_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11714,7 +11714,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1/index_r_2/index_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/index_r_1/index_r_2/index_r_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11742,7 +11742,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11770,7 +11770,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11798,7 +11798,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11826,7 +11826,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1/thumb_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1/thumb_r_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11854,7 +11854,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1/thumb_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1/thumb_r_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11882,7 +11882,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1/thumb_r_2
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1/thumb_r_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11910,7 +11910,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1/thumb_r_2/thumb_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1/thumb_r_2/thumb_r_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11938,7 +11938,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1/thumb_r_2/thumb_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1/thumb_r_2/thumb_r_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11966,7 +11966,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1/thumb_r_2/thumb_r_3
+    path: hips/root/Spine1/Spine2/Chest/chest_r/arms_r_01/arms_r_02/hand_r/thumb_r_1/thumb_r_2/thumb_r_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12012,7 +12012,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_l
+    path: hips/root/Spine1/Spine2/Chest/chest_l
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12058,7 +12058,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_l
+    path: hips/root/Spine1/Spine2/Chest/chest_l
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12104,7 +12104,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_l
+    path: hips/root/Spine1/Spine2/Chest/chest_l
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12150,7 +12150,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12196,7 +12196,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12242,7 +12242,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12279,7 +12279,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12316,7 +12316,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12353,7 +12353,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12399,7 +12399,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12445,7 +12445,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12491,7 +12491,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12519,7 +12519,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12547,7 +12547,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12575,7 +12575,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12603,7 +12603,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1/little_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1/little_l_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12631,7 +12631,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1/little_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1/little_l_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12659,7 +12659,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1/little_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1/little_l_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12687,7 +12687,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1/little_l_2/little_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1/little_l_2/little_l_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12715,7 +12715,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1/little_l_2/little_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1/little_l_2/little_l_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12743,7 +12743,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1/little_l_2/little_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/little_l_1/little_l_2/little_l_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12771,7 +12771,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12799,7 +12799,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12827,7 +12827,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12855,7 +12855,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1/ring_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1/ring_l_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12883,7 +12883,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1/ring_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1/ring_l_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12911,7 +12911,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1/ring_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1/ring_l_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12939,7 +12939,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1/ring_l_2/ring_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1/ring_l_2/ring_l_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12967,7 +12967,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1/ring_l_2/ring_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1/ring_l_2/ring_l_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -12995,7 +12995,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1/ring_l_2/ring_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/ring_l_1/ring_l_2/ring_l_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13023,7 +13023,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13051,7 +13051,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13079,7 +13079,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13107,7 +13107,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1/middle_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1/middle_l_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13135,7 +13135,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1/middle_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1/middle_l_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13163,7 +13163,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1/middle_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1/middle_l_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13191,7 +13191,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1/middle_l_2/middle_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1/middle_l_2/middle_l_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13219,7 +13219,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1/middle_l_2/middle_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1/middle_l_2/middle_l_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13247,7 +13247,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1/middle_l_2/middle_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/middle_l_1/middle_l_2/middle_l_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13275,7 +13275,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13303,7 +13303,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13331,7 +13331,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13359,7 +13359,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1/index_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1/index_l_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13387,7 +13387,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1/index_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1/index_l_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13415,7 +13415,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1/index_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1/index_l_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13443,7 +13443,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1/index_l_2/index_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1/index_l_2/index_l_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13471,7 +13471,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1/index_l_2/index_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1/index_l_2/index_l_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13499,7 +13499,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1/index_l_2/index_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/index_l_1/index_l_2/index_l_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13527,7 +13527,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13555,7 +13555,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13583,7 +13583,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13611,7 +13611,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1/thumb_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1/thumb_l_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13639,7 +13639,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1/thumb_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1/thumb_l_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13667,7 +13667,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1/thumb_l_2
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1/thumb_l_2
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13695,7 +13695,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1/thumb_l_2/thumb_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1/thumb_l_2/thumb_l_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13723,7 +13723,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1/thumb_l_2/thumb_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1/thumb_l_2/thumb_l_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13751,7 +13751,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1/thumb_l_2/thumb_l_3
+    path: hips/root/Spine1/Spine2/Chest/chest_l/arms_l_01/arms_l_02/hand_l/thumb_l_1/thumb_l_2/thumb_l_3
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13788,7 +13788,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Thigh.R
+    path: hips/root/Thigh.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13825,7 +13825,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Thigh.R
+    path: hips/root/Thigh.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13862,7 +13862,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Thigh.R
+    path: hips/root/Thigh.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13899,7 +13899,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Thigh.R/Shin.R
+    path: hips/root/Thigh.R/Shin.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13936,7 +13936,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Thigh.R/Shin.R
+    path: hips/root/Thigh.R/Shin.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -13973,7 +13973,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Thigh.R/Shin.R
+    path: hips/root/Thigh.R/Shin.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -14010,7 +14010,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Thigh.R/Shin.R/Foot.R
+    path: hips/root/Thigh.R/Shin.R/Foot.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -14047,7 +14047,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Thigh.R/Shin.R/Foot.R
+    path: hips/root/Thigh.R/Shin.R/Foot.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -14084,7 +14084,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Thigh.R/Shin.R/Foot.R
+    path: hips/root/Thigh.R/Shin.R/Foot.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -14112,7 +14112,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Thigh.R/Shin.R/Foot.R/Toe.R
+    path: hips/root/Thigh.R/Shin.R/Foot.R/Toe.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -14140,7 +14140,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Thigh.R/Shin.R/Foot.R/Toe.R
+    path: hips/root/Thigh.R/Shin.R/Foot.R/Toe.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -14168,7 +14168,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Thigh.R/Shin.R/Foot.R/Toe.R
+    path: hips/root/Thigh.R/Shin.R/Foot.R/Toe.R
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -14205,7 +14205,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Thigh.L
+    path: hips/root/Thigh.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -14242,7 +14242,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Thigh.L
+    path: hips/root/Thigh.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -14279,7 +14279,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Thigh.L
+    path: hips/root/Thigh.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -14316,7 +14316,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Thigh.L/Shin.L
+    path: hips/root/Thigh.L/Shin.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -14353,7 +14353,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Thigh.L/Shin.L
+    path: hips/root/Thigh.L/Shin.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -14390,7 +14390,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Thigh.L/Shin.L
+    path: hips/root/Thigh.L/Shin.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -14427,7 +14427,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Thigh.L/Shin.L/Foot.L
+    path: hips/root/Thigh.L/Shin.L/Foot.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -14464,7 +14464,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Thigh.L/Shin.L/Foot.L
+    path: hips/root/Thigh.L/Shin.L/Foot.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -14501,7 +14501,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Thigh.L/Shin.L/Foot.L
+    path: hips/root/Thigh.L/Shin.L/Foot.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -14529,7 +14529,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: root/Thigh.L/Shin.L/Foot.L/Toe.L
+    path: hips/root/Thigh.L/Shin.L/Foot.L/Toe.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -14557,7 +14557,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: root/Thigh.L/Shin.L/Foot.L/Toe.L
+    path: hips/root/Thigh.L/Shin.L/Foot.L/Toe.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -14585,7 +14585,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: root/Thigh.L/Shin.L/Foot.L/Toe.L
+    path: hips/root/Thigh.L/Shin.L/Foot.L/Toe.L
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -14613,7 +14613,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.x
-    path: FOOT_IK_L_TARGET
+    path: hips/FOOT_IK_L_TARGET
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -14641,7 +14641,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.y
-    path: FOOT_IK_L_TARGET
+    path: hips/FOOT_IK_L_TARGET
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -14669,9 +14669,9 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAngles.z
-    path: FOOT_IK_L_TARGET
+    path: hips/FOOT_IK_L_TARGET
     classID: 4
     script: {fileID: 0}
-  m_HasGenericRootTransform: 1
+  m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
   m_Events: []
