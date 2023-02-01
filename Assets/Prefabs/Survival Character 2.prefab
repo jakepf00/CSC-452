@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3076653421044882969}
   - component: {fileID: 6042880827690486824}
   - component: {fileID: 5598341664085717912}
+  - component: {fileID: 7587723637943054392}
   m_Layer: 0
   m_Name: Survival Character 2
   m_TagString: Player
@@ -50,6 +51,7 @@ MonoBehaviour:
   <InputReader>k__BackingField: {fileID: 6042880827690486824}
   <CharacterController>k__BackingField: {fileID: 5598341664085717912}
   <Animator>k__BackingField: {fileID: 2266219500619399935}
+  <ForceReceiver>k__BackingField: {fileID: 7587723637943054392}
   <MovementSpeed>k__BackingField: 10
 --- !u!114 &6042880827690486824
 MonoBehaviour:
@@ -81,6 +83,22 @@ CharacterController:
   m_SkinWidth: 0.025
   m_MinMoveDistance: 0
   m_Center: {x: 0, y: 0.95, z: 0}
+--- !u!114 &7587723637943054392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7044890589213782043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e31f3a792584826eca73c89a5b3c4979, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _controller: {fileID: 5598341664085717912}
+  _verticalVelocity: 10
+  _gravityModifier: 5
+  _drag: 0.1
 --- !u!1 &7220174426840796802
 GameObject:
   m_ObjectHideFlags: 0

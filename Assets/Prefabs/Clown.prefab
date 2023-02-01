@@ -1068,6 +1068,7 @@ GameObject:
   m_Component:
   - component: {fileID: 521644926008494931}
   - component: {fileID: 2440577845249006531}
+  - component: {fileID: 620571983156032210}
   m_Layer: 0
   m_Name: Clown
   m_TagString: Enemy
@@ -1109,6 +1110,22 @@ CharacterController:
   m_SkinWidth: 0.025
   m_MinMoveDistance: 0
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &620571983156032210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3772397654459697507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e31f3a792584826eca73c89a5b3c4979, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _controller: {fileID: 2440577845249006531}
+  _verticalVelocity: 10
+  _gravityModifier: 5
+  _drag: 0.1
 --- !u!1 &3774909412728551116
 GameObject:
   m_ObjectHideFlags: 0
