@@ -4745,7 +4745,7 @@ GameObject:
   - component: {fileID: 7196752988105394906}
   - component: {fileID: 4521222490155175862}
   m_Layer: 0
-  m_Name: Survival Character 4
+  m_Name: Player 4
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

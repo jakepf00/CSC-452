@@ -729,7 +729,7 @@ GameObject:
   - component: {fileID: 3965222928416939232}
   - component: {fileID: 1690571835087308188}
   m_Layer: 0
-  m_Name: Swat
+  m_Name: Guard
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

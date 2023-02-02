@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 726837787806274467}
   - component: {fileID: 3819415615929468328}
   m_Layer: 0
-  m_Name: Survival Character 3
+  m_Name: Player 3
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
