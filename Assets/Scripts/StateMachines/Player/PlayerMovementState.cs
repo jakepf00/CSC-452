@@ -11,9 +11,7 @@ public class PlayerMovementState : PlayerBaseState {
     public override void Exit() {
         
     }
-    public Vector2 lookRotationaa;
     public override void Tick(float deltaTime) {
-        lookRotationaa = _stateMachine.InputReader.LookValue;
         if(_stateMachine.InputReader.MovementValue == Vector2.zero) {
             Move(deltaTime);
             _stateMachine.transform.Rotate(new Vector3(0, _stateMachine.InputReader.LookValue.x, 0) * RotationDamping * deltaTime);
