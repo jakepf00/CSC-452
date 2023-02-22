@@ -6,7 +6,7 @@ public class PlayerMovementState : PlayerBaseState {
     }
 
     public override void Enter() {
-
+        _stateMachine.Animator.CrossFadeInFixedTime(MovementBlendTreeHash, CrossFadeDuration);
     }
     public override void Exit() {
         
