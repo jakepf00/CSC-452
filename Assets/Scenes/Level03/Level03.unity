@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028328, g: 0.22571328, b: 0.3069218, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1285,7 +1285,7 @@ Transform:
   - {fileID: 648574624}
   - {fileID: 1474407647}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &158474886 stripped
 Transform:
@@ -3204,7 +3204,7 @@ Transform:
   - {fileID: 1880806908}
   - {fileID: 129140227}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &368371665
 PrefabInstance:
@@ -5288,7 +5288,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!114 &558480835
 MonoBehaviour:
@@ -6200,7 +6200,7 @@ Transform:
   m_Children:
   - {fileID: 632568468}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &726656480
 PrefabInstance:
@@ -8895,7 +8895,7 @@ Transform:
   - {fileID: 830334217}
   - {fileID: 1950101414}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &933457084
 PrefabInstance:
@@ -10079,7 +10079,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1024271454
 PrefabInstance:
@@ -12642,6 +12642,7 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1259864635}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!1 &1235126166
 GameObject:
   m_ObjectHideFlags: 0
@@ -12766,6 +12767,8 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1692518618}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> 930e1f52c9b64dd2cd591160df3fede7f180a423
 --- !u!1001 &1259864635
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17579,7 +17582,7 @@ Transform:
   m_Children:
   - {fileID: 1510855106}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1810362487
 PrefabInstance:
@@ -19383,7 +19386,7 @@ Transform:
   - {fileID: 1088745540}
   - {fileID: 1208318602}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2013316414 stripped
 Transform:
