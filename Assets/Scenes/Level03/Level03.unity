@@ -12642,7 +12642,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1259864635}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
 --- !u!1 &1235126166
 GameObject:
   m_ObjectHideFlags: 0
@@ -12767,8 +12766,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1692518618}
   m_PrefabAsset: {fileID: 0}
-=======
->>>>>>> 930e1f52c9b64dd2cd591160df3fede7f180a423
 --- !u!1001 &1259864635
 PrefabInstance:
   m_ObjectHideFlags: 0
