@@ -4,11 +4,10 @@ using UnityEngine.InputSystem;
 
 public class InputReader : MonoBehaviour, Controls.IPlayerActions {
     public bool IsAiming { get; private set; }
+    public bool IsAttacking { get; private set; }
     public Vector2 MovementValue { get; private set; }
     public Vector2 LookValue { get; private set; }
     public event Action JumpEvent;
-    public event Action AimEvent;
-    public event Action AttackEvent;
     Controls _controls;
 
     void Start() {
@@ -33,7 +32,6 @@ public class InputReader : MonoBehaviour, Controls.IPlayerActions {
     public void OnAim(InputAction.CallbackContext context) {
         if (context.performed) {
             IsAiming = true;
-            AimEvent?.Invoke();
         }
         else if (context.canceled) {
             IsAiming = false;
@@ -41,7 +39,10 @@ public class InputReader : MonoBehaviour, Controls.IPlayerActions {
     }
     public void OnAttack(InputAction.CallbackContext context) {
         if (context.performed) {
-            AttackEvent?.Invoke();
+            IsAttacking = true;
+        }
+        else if (context.canceled) {
+            IsAttacking = false;
         }
     }
 }

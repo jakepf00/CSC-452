@@ -6,13 +6,14 @@ public class PlayerMovementState : PlayerBaseState {
     }
 
     public override void Enter() {
-        _stateMachine.InputReader.AimEvent += OnAim;
         _stateMachine.Animator.CrossFadeInFixedTime(MovementBlendTreeHash, CrossFadeDuration);
     }
-    public override void Exit() {
-        _stateMachine.InputReader.AimEvent -= OnAim;
-    }
+    public override void Exit() {}
     public override void Tick(float deltaTime) {
+        if (_stateMachine.InputReader.IsAiming) {
+            _stateMachine.SwitchState(new PlayerAimingState(_stateMachine, 0)); // TODO: replace 0 with current weapon
+        }
+
         if(_stateMachine.InputReader.MovementValue == Vector2.zero) {
             Move(deltaTime);
             _stateMachine.transform.Rotate(new Vector3(0, _stateMachine.InputReader.LookValue.x, 0) * RotationDamping * deltaTime);
@@ -26,10 +27,6 @@ public class PlayerMovementState : PlayerBaseState {
         _stateMachine.transform.Rotate(new Vector3(0, _stateMachine.InputReader.LookValue.x, 0) * RotationDamping * deltaTime);
         _stateMachine.MainCameraTransform.Rotate(new Vector3(-_stateMachine.InputReader.LookValue.y, 0, 0) * RotationDamping * deltaTime);
         _stateMachine.Animator.SetFloat("MovementSpeed", 1.0f, AnimationDamping, deltaTime);
-    }
-
-    void OnAim() {
-        _stateMachine.SwitchState(new PlayerAimingState(_stateMachine, 0)); // TODO: replace 0 with current weapon
     }
 
     Vector3 MoveWithCamera() {
