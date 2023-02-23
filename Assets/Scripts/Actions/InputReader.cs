@@ -3,10 +3,12 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class InputReader : MonoBehaviour, Controls.IPlayerActions {
-    public bool IsAttacking { get; private set; } = false;
+    public bool IsAiming { get; private set; }
     public Vector2 MovementValue { get; private set; }
     public Vector2 LookValue { get; private set; }
     public event Action JumpEvent;
+    public event Action AimEvent;
+    public event Action AttackEvent;
     Controls _controls;
 
     void Start() {
@@ -28,12 +30,18 @@ public class InputReader : MonoBehaviour, Controls.IPlayerActions {
     public void OnMove(InputAction.CallbackContext context) {
         MovementValue = context.ReadValue<Vector2>();
     }
-    public void OnAttack(InputAction.CallbackContext context) {
+    public void OnAim(InputAction.CallbackContext context) {
         if (context.performed) {
-            IsAttacking = true;
+            IsAiming = true;
+            AimEvent?.Invoke();
         }
         else if (context.canceled) {
-            IsAttacking = false;
+            IsAiming = false;
+        }
+    }
+    public void OnAttack(InputAction.CallbackContext context) {
+        if (context.performed) {
+            AttackEvent?.Invoke();
         }
     }
 }

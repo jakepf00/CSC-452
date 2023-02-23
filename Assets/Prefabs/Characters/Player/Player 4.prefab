@@ -4788,7 +4788,15 @@ MonoBehaviour:
   <ForceReceiver>k__BackingField: {fileID: 4521222490155175862}
   <Targeter>k__BackingField: {fileID: 36229994583023842}
   <MovementSpeed>k__BackingField: 10
-  <Attacks>k__BackingField: []
+  <Weapons>k__BackingField:
+  - <AimAnimationName>k__BackingField: Pistol Aim
+    <ShootAnimationName>k__BackingField: Pistol Shoot
+    <ReloadAnimationName>k__BackingField: 
+    <TransitionTime>k__BackingField: 0.1
+    <FullAutoTime>k__BackingField: -1
+    <SemiAutoTime>k__BackingField: 0.5
+    <ReloadTime>k__BackingField: 2
+    <Damage>k__BackingField: 5
 --- !u!114 &4919981511431075672
 MonoBehaviour:
   m_ObjectHideFlags: 0
