@@ -14,4 +14,14 @@ public class PlayerStateMachine : StateMachine {
         MainCameraTransform = Camera.main.transform;
         SwitchState(new PlayerMovementState(this));
     }
+    void OnEnable() {
+        InputReader.PauseEvent += OnPause;
+    }
+    void OnDisable() {
+        InputReader.PauseEvent -= OnPause;
+    }
+
+    void OnPause() {
+        GameController.Instance.PauseGame();
+    }
 }
