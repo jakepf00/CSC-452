@@ -39,4 +39,3 @@ public class PlayerMovementState : PlayerBaseState {
         return forward * _stateMachine.InputReader.MovementValue.y + right * _stateMachine.InputReader.MovementValue.x;
     }
 }
-
