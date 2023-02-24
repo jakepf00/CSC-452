@@ -21,10 +21,8 @@ public class PlayerShootingState : PlayerBaseState {
         normalizedTime -= Mathf.Floor(normalizedTime);
         if (normalizedTime > 0.1f && normalizedTime < 0.2f) _started = true;
         if (_started) {
-            if (_stateMachine.InputReader.IsAttacking && _weapon.FullAutoTime > 0.0f && normalizedTime >= _weapon.FullAutoTime) {
-                TryFullAuto(normalizedTime);
-            }
-            else if (normalizedTime > 0.95f) {
+            TryFullAuto();
+            if (normalizedTime > 0.95f) {
                 _stateMachine.SwitchState(new PlayerMovementState(_stateMachine));
             }
         }
@@ -48,9 +46,8 @@ public class PlayerShootingState : PlayerBaseState {
     void TryApplyForce() {
 
     }
-    void TryFullAuto(float normalizedTime) {
-        // Check: is combo attack available AND ready to transition
-        if (_weapon.FullAutoTime < 0 || normalizedTime < _weapon.FullAutoTime) { return; }
+    void TryFullAuto() {
+        if (_weapon.FullAutoTime < 0 || System.DateTime.Now.Ticks < stateEnterTime.AddSeconds(_weapon.FullAutoTime).Ticks || !_stateMachine.InputReader.IsAttacking) { return; }
         _stateMachine.SwitchState(new PlayerShootingState(_stateMachine, _weaponIndex));
     }
     Vector3 MoveWithCamera() {
@@ -64,7 +61,6 @@ public class PlayerShootingState : PlayerBaseState {
     }
     void OnAttack() {
         if (_weapon.SemiAutoTime < 0 || System.DateTime.Now.Ticks < stateEnterTime.AddSeconds(_weapon.SemiAutoTime).Ticks) { return; }
-        Debug.Log("here");
         _stateMachine.SwitchState(new PlayerShootingState(_stateMachine, _weaponIndex));
     }
 }
