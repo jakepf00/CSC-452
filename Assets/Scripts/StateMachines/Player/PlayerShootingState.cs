@@ -15,6 +15,7 @@ public class PlayerShootingState : PlayerBaseState {
         stateEnterTime = System.DateTime.Now;
         _stateMachine.InputReader.AttackEvent += OnAttack;
         _stateMachine.Animator.CrossFadeInFixedTime(_weapon.ShootAnimationName, _weapon.TransitionTime);
+        Shoot();
     }
     public override void Tick(float deltaTime) {
         float normalizedTime = _stateMachine.Animator.GetCurrentAnimatorStateInfo(0).normalizedTime;
@@ -62,5 +63,14 @@ public class PlayerShootingState : PlayerBaseState {
     void OnAttack() {
         if (_weapon.SemiAutoTime < 0 || System.DateTime.Now.Ticks < stateEnterTime.AddSeconds(_weapon.SemiAutoTime).Ticks) { return; }
         _stateMachine.SwitchState(new PlayerShootingState(_stateMachine, _weaponIndex));
+    }
+    void Shoot() {
+        RaycastHit hit;
+        if (Physics.Raycast(_stateMachine.MainCameraTransform.position, _stateMachine.MainCameraTransform.forward, out hit)) {
+            Health health = hit.transform.GetComponent<Health>();
+            if (health != null) {
+                health.TakeDamage(_weapon.Damage);
+            }
+        }
     }
 }
