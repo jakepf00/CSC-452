@@ -4794,7 +4794,7 @@ MonoBehaviour:
     <ReloadAnimationName>k__BackingField: 
     <TransitionTime>k__BackingField: 0.1
     <FullAutoTime>k__BackingField: -1
-    <SemiAutoTime>k__BackingField: 0.5
+    <SemiAutoTime>k__BackingField: 0.15
     <ReloadTime>k__BackingField: 2
     <Damage>k__BackingField: 5
 --- !u!114 &4919981511431075672

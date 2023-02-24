@@ -9,12 +9,13 @@ public class PlayerAimingState : PlayerBaseState {
         _weaponIndex = weaponIndex;
     }
     public override void Enter() {
+        _stateMachine.InputReader.AttackEvent += OnAttack;
         _stateMachine.Animator.CrossFadeInFixedTime(_weapon.AimAnimationName, _weapon.TransitionTime);
     }
     public override void Tick(float deltaTime) {
-        if (_stateMachine.InputReader.IsAttacking) {
-            _stateMachine.SwitchState(new PlayerShootingState(_stateMachine, _weaponIndex));
-        }
+        //if (_stateMachine.InputReader.IsAttacking) {
+        //    _stateMachine.SwitchState(new PlayerShootingState(_stateMachine, _weaponIndex));
+        //}
 
         if (!_stateMachine.InputReader.IsAiming) {
             _stateMachine.SwitchState(new PlayerMovementState(_stateMachine));
@@ -32,7 +33,9 @@ public class PlayerAimingState : PlayerBaseState {
         _stateMachine.transform.Rotate(new Vector3(0, _stateMachine.InputReader.LookValue.x, 0) * RotationDamping * deltaTime);
         _stateMachine.MainCameraTransform.Rotate(new Vector3(-_stateMachine.InputReader.LookValue.y, 0, 0) * RotationDamping * deltaTime);
     }
-    public override void Exit() {}
+    public override void Exit() {
+        _stateMachine.InputReader.AttackEvent -= OnAttack;
+    }
 
     Vector3 MoveWithCamera() {
         Vector3 forward = _stateMachine.MainCameraTransform.forward;
@@ -42,5 +45,8 @@ public class PlayerAimingState : PlayerBaseState {
         forward.Normalize();
         right.Normalize();
         return forward * _stateMachine.InputReader.MovementValue.y + right * _stateMachine.InputReader.MovementValue.x;
+    }
+    void OnAttack() {
+        _stateMachine.SwitchState(new PlayerShootingState(_stateMachine, _weaponIndex));
     }
 }

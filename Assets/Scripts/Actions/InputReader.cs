@@ -7,6 +7,7 @@ public class InputReader : MonoBehaviour, Controls.IPlayerActions {
     public bool IsAttacking { get; private set; }
     public Vector2 MovementValue { get; private set; }
     public Vector2 LookValue { get; private set; }
+    public event Action AttackEvent;
     public event Action JumpEvent;
     public event Action PauseEvent;
     Controls _controls;
@@ -45,6 +46,7 @@ public class InputReader : MonoBehaviour, Controls.IPlayerActions {
     }
     public void OnAttack(InputAction.CallbackContext context) {
         if (context.performed) {
+            AttackEvent?.Invoke();
             IsAttacking = true;
         }
         else if (context.canceled) {
