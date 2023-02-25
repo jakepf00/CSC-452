@@ -31,14 +31,22 @@ public class PlayerShootingState : PlayerBaseState {
         if(_stateMachine.InputReader.MovementValue == Vector2.zero) {
             Move(deltaTime);
             _stateMachine.transform.Rotate(new Vector3(0, _stateMachine.InputReader.LookValue.x, 0) * RotationDamping * deltaTime);
-            _stateMachine.MainCameraTransform.Rotate(new Vector3(-_stateMachine.InputReader.LookValue.y, 0, 0) * RotationDamping * deltaTime);
+            if ((_stateMachine.MainCameraTransform.localRotation.x < 0.45f && _stateMachine.InputReader.LookValue.y > 0) || 
+                (_stateMachine.MainCameraTransform.localRotation.x > -0.45f && _stateMachine.InputReader.LookValue.y < 0)) {
+                _stateMachine.MainCameraTransform.Rotate(new Vector3(-_stateMachine.InputReader.LookValue.y, 0, 0) * RotationDamping * deltaTime);
+
+            }
             return;
         }
 
         Vector3 movement = MoveWithCamera();
         Move(movement * _stateMachine.MovementSpeed, deltaTime);
         _stateMachine.transform.Rotate(new Vector3(0, _stateMachine.InputReader.LookValue.x, 0) * RotationDamping * deltaTime);
-        _stateMachine.MainCameraTransform.Rotate(new Vector3(-_stateMachine.InputReader.LookValue.y, 0, 0) * RotationDamping * deltaTime);
+        if ((_stateMachine.MainCameraTransform.localRotation.x < 0.45f && _stateMachine.InputReader.LookValue.y > 0) || 
+            (_stateMachine.MainCameraTransform.localRotation.x > -0.45f && _stateMachine.InputReader.LookValue.y < 0)) {
+            _stateMachine.MainCameraTransform.Rotate(new Vector3(-_stateMachine.InputReader.LookValue.y, 0, 0) * RotationDamping * deltaTime);
+
+        }
     }
     public override void Exit() {
         _stateMachine.InputReader.AttackEvent -= OnAttack;
@@ -67,6 +75,7 @@ public class PlayerShootingState : PlayerBaseState {
     void Shoot() {
         RaycastHit hit;
         if (Physics.Raycast(_stateMachine.MainCameraTransform.position, _stateMachine.MainCameraTransform.forward, out hit)) {
+            Debug.Log(hit.transform.name);
             Health health = hit.transform.GetComponent<Health>();
             if (health != null) {
                 health.TakeDamage(_weapon.Damage);

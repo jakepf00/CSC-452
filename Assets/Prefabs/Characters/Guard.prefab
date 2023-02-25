@@ -781,6 +781,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f74860f8c2e4d5c1b158d3595261f27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  <Animator>k__BackingField: {fileID: 2664146015539208562}
+  <Health>k__BackingField: {fileID: 4280041406609567876}
 --- !u!143 &1690571835087308188
 CharacterController:
   m_ObjectHideFlags: 0
