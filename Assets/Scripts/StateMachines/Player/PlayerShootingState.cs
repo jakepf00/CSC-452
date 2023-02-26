@@ -73,6 +73,7 @@ public class PlayerShootingState : PlayerBaseState {
         _stateMachine.SwitchState(new PlayerShootingState(_stateMachine, _weaponIndex));
     }
     void Shoot() {
+        _weapon.MuzzleFlash.Play(); 
         RaycastHit hit;
         if (Physics.Raycast(_stateMachine.MainCameraTransform.position, _stateMachine.MainCameraTransform.forward, out hit)) {
             Debug.Log(hit.transform.name);
@@ -80,6 +81,7 @@ public class PlayerShootingState : PlayerBaseState {
             if (health != null) {
                 health.TakeDamage(_weapon.Damage);
             }
+            GameObject.Instantiate(_weapon.ImpactEffect, hit.point, Quaternion.LookRotation(hit.normal));
         }
     }
 }

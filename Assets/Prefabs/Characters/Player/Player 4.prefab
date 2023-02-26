@@ -4791,14 +4791,7 @@ MonoBehaviour:
   <Targeter>k__BackingField: {fileID: 36229994583023842}
   <MovementSpeed>k__BackingField: 10
   <Weapons>k__BackingField:
-  - <AimAnimationName>k__BackingField: Pistol Aim
-    <ShootAnimationName>k__BackingField: Pistol Shoot
-    <ReloadAnimationName>k__BackingField: 
-    <TransitionTime>k__BackingField: 0.1
-    <FullAutoTime>k__BackingField: -1
-    <SemiAutoTime>k__BackingField: 0.15
-    <ReloadTime>k__BackingField: 2
-    <Damage>k__BackingField: 20
+  - {fileID: 4305238210749443448}
 --- !u!114 &4919981511431075672
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5322,6 +5315,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 345398915254846780}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &4305238210749443448 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4572381967139121220, guid: 748d19574625db444877ca05561b6aea,
+    type: 3}
+  m_PrefabInstance: {fileID: 345398915254846780}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b4d0364285b1b2eb9c7924ff20b2204, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1615052072850262796
 PrefabInstance:
   m_ObjectHideFlags: 0
