@@ -6,9 +6,9 @@ public class PlayerMovementState : PlayerBaseState {
     }
 
     public override void Enter() {
+        _stateMachine.InputReader.AttackEvent += OnAttack;
         _stateMachine.Animator.CrossFadeInFixedTime(MovementBlendTreeHash, CrossFadeDuration);
     }
-    public override void Exit() {}
     public override void Tick(float deltaTime) {
         if (_stateMachine.InputReader.IsAiming) {
             _stateMachine.SwitchState(new PlayerAimingState(_stateMachine, _stateMachine.CurrentWeapon));
@@ -36,6 +36,9 @@ public class PlayerMovementState : PlayerBaseState {
         }
         _stateMachine.Animator.SetFloat("MovementSpeed", 1.0f, AnimationDamping, deltaTime);
     }
+    public override void Exit() {
+        _stateMachine.InputReader.AttackEvent -= OnAttack;
+    }
 
     Vector3 MoveWithCamera() {
         Vector3 forward = _stateMachine.MainCameraTransform.forward;
@@ -45,5 +48,8 @@ public class PlayerMovementState : PlayerBaseState {
         forward.Normalize();
         right.Normalize();
         return forward * _stateMachine.InputReader.MovementValue.y + right * _stateMachine.InputReader.MovementValue.x;
+    }
+    void OnAttack() {
+        _stateMachine.SwitchState(new PlayerShootingState(_stateMachine, _stateMachine.CurrentWeapon));
     }
 }

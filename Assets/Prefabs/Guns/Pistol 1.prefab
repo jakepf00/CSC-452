@@ -119,6 +119,8 @@ MonoBehaviour:
   <FullAutoTime>k__BackingField: -1
   <SemiAutoTime>k__BackingField: 0.1
   <ReloadTime>k__BackingField: 1
+  <BulletSpreadAim>k__BackingField: 1
+  <BulletSpreadHip>k__BackingField: 5
   <Damage>k__BackingField: 20
   <MuzzleFlash>k__BackingField: {fileID: 6790357631476250692}
   <ImpactEffect>k__BackingField: {fileID: 100002, guid: ac1aa04288fad804ba1cd769f4377aaf,

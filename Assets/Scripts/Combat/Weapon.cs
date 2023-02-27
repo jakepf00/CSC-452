@@ -10,6 +10,8 @@ public class Weapon : MonoBehaviour {
     [field: SerializeField] public float FullAutoTime { get; private set; } = -1.0f;
     [field: SerializeField] public float SemiAutoTime { get; private set; } = 0.0f;
     [field: SerializeField] public float ReloadTime { get; private set; } = 1.0f;
+    [field: SerializeField] public float BulletSpreadAim { get; private set; } = 0.0f;
+    [field: SerializeField] public float BulletSpreadHip { get; private set; } = 0.0f;
     [field: SerializeField] public int Damage { get; private set; } = 10;
     [field: SerializeField] public ParticleSystem MuzzleFlash { get; private set; }
     [field: SerializeField] public GameObject ImpactEffect { get; private set; }

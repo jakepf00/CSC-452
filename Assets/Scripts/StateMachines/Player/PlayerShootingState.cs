@@ -75,7 +75,13 @@ public class PlayerShootingState : PlayerBaseState {
     void Shoot() {
         _weapon.MuzzleFlash.Play(); 
         RaycastHit hit;
-        if (Physics.Raycast(_stateMachine.MainCameraTransform.position, _stateMachine.MainCameraTransform.forward, out hit)) {
+        float spread = _stateMachine.InputReader.IsAiming ? _weapon.BulletSpreadAim : _weapon.BulletSpreadHip;
+        Vector3 direction = new Vector3(
+            _stateMachine.MainCameraTransform.forward.x + UnityEngine.Random.Range(-spread, spread)/100.0f,
+            _stateMachine.MainCameraTransform.forward.y + UnityEngine.Random.Range(-spread, spread)/100.0f,
+            _stateMachine.MainCameraTransform.forward.z + UnityEngine.Random.Range(-spread, spread)/100.0f
+        );
+        if (Physics.Raycast(_stateMachine.MainCameraTransform.position, direction, out hit)) {
             Health health = hit.transform.GetComponent<Health>();
             if (health != null) {
                 health.TakeDamage(_weapon.Damage);
