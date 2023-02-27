@@ -13,4 +13,5 @@ public class Weapon : MonoBehaviour {
     [field: SerializeField] public int Damage { get; private set; } = 10;
     [field: SerializeField] public ParticleSystem MuzzleFlash { get; private set; }
     [field: SerializeField] public GameObject ImpactEffect { get; private set; }
+    [field: SerializeField] public Vector3 AimOffset { get; private set; }
 }

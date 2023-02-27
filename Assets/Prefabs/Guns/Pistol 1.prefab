@@ -123,6 +123,7 @@ MonoBehaviour:
   <MuzzleFlash>k__BackingField: {fileID: 6790357631476250692}
   <ImpactEffect>k__BackingField: {fileID: 100002, guid: ac1aa04288fad804ba1cd769f4377aaf,
     type: 3}
+  <AimOffset>k__BackingField: {x: 0.2, y: 0.11, z: 0.383}
 --- !u!1001 &6790357631496038272
 PrefabInstance:
   m_ObjectHideFlags: 0
