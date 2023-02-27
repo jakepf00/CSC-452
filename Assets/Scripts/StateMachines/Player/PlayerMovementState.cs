@@ -7,6 +7,7 @@ public class PlayerMovementState : PlayerBaseState {
 
     public override void Enter() {
         _stateMachine.InputReader.AttackEvent += OnAttack;
+        _stateMachine.InputReader.JumpEvent += OnJump;
         _stateMachine.Animator.CrossFadeInFixedTime(MovementBlendTreeHash, CrossFadeDuration);
     }
     public override void Tick(float deltaTime) {
@@ -38,6 +39,7 @@ public class PlayerMovementState : PlayerBaseState {
     }
     public override void Exit() {
         _stateMachine.InputReader.AttackEvent -= OnAttack;
+        _stateMachine.InputReader.JumpEvent -= OnJump;
     }
 
     Vector3 MoveWithCamera() {
@@ -51,5 +53,8 @@ public class PlayerMovementState : PlayerBaseState {
     }
     void OnAttack() {
         _stateMachine.SwitchState(new PlayerShootingState(_stateMachine, _stateMachine.CurrentWeapon));
+    }
+    void OnJump() {
+        _stateMachine.SwitchState(new PlayerJumpingState(_stateMachine));
     }
 }
