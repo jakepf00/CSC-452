@@ -9,7 +9,6 @@ public class PlayerAimingState : PlayerBaseState {
         _weaponIndex = weaponIndex;
     }
     public override void Enter() {
-        _weapon.transform.Translate(_weapon.AimOffset);
         _stateMachine.InputReader.AttackEvent += OnAttack;
         _stateMachine.Animator.CrossFadeInFixedTime(_weapon.AimAnimationName, _weapon.TransitionTime);
     }
@@ -30,7 +29,7 @@ public class PlayerAimingState : PlayerBaseState {
         }
 
         Vector3 movement = MoveWithCamera();
-        Move(movement * _stateMachine.MovementSpeed * _stateMachine.MovementSpeedAimMultiplier, deltaTime);
+        Move(movement * _stateMachine.MovementSpeed, deltaTime);
         _stateMachine.transform.Rotate(new Vector3(0, _stateMachine.InputReader.LookValue.x, 0) * RotationDamping * deltaTime);
         if ((_stateMachine.MainCameraTransform.localRotation.x < 0.45f && _stateMachine.InputReader.LookValue.y > 0) || 
             (_stateMachine.MainCameraTransform.localRotation.x > -0.45f && _stateMachine.InputReader.LookValue.y < 0)) {
@@ -40,7 +39,6 @@ public class PlayerAimingState : PlayerBaseState {
     }
     public override void Exit() {
         _stateMachine.InputReader.AttackEvent -= OnAttack;
-        _weapon.transform.Translate(-_weapon.AimOffset);
     }
 
     Vector3 MoveWithCamera() {

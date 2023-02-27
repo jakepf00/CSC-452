@@ -11,7 +11,7 @@ public class PlayerMovementState : PlayerBaseState {
     public override void Exit() {}
     public override void Tick(float deltaTime) {
         if (_stateMachine.InputReader.IsAiming) {
-            _stateMachine.SwitchState(new PlayerAimingState(_stateMachine, 0)); // TODO: replace 0 with current weapon
+            _stateMachine.SwitchState(new PlayerAimingState(_stateMachine, _stateMachine.CurrentWeapon));
         }
 
         if(_stateMachine.InputReader.MovementValue == Vector2.zero) {
