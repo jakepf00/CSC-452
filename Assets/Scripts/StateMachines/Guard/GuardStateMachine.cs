@@ -10,7 +10,7 @@ public class GuardStateMachine : StateMachine {
 
     void Start() {
         Player = GameObject.FindGameObjectWithTag("Player");
-        //SwitchState(new GuardIdleState(this));
+        SwitchState(new GuardIdleState(this));
     }
     void OnEnable() {
         Health.DamageEvent += OnDamage;
@@ -21,7 +21,7 @@ public class GuardStateMachine : StateMachine {
         Health.DeathEvent -= OnDeath;
     }
     void OnDamage() {
-        //SwitchState(new GuardImpactState(this));
+        SwitchState(new GuardImpactState(this));
     }
     void OnDeath() {
         SwitchState(new GuardDeathState(this));

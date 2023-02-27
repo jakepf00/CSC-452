@@ -4790,8 +4790,11 @@ MonoBehaviour:
   <ForceReceiver>k__BackingField: {fileID: 4521222490155175862}
   <Targeter>k__BackingField: {fileID: 36229994583023842}
   <MovementSpeed>k__BackingField: 10
+  <MovementSpeedAimMultiplier>k__BackingField: 0.5
+  <Health>k__BackingField: {fileID: 5716862894684495823}
   <Weapons>k__BackingField:
   - {fileID: 4305238210749443448}
+  <CurrentWeapon>k__BackingField: 0
 --- !u!114 &4919981511431075672
 MonoBehaviour:
   m_ObjectHideFlags: 0
