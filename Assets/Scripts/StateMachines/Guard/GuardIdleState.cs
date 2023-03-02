@@ -10,7 +10,6 @@ public class GuardIdleState : GuardBaseState {
         _stateMachine.Animator.CrossFadeInFixedTime(MovementBlendTreeHash, CrossFadeDuration);
     }
     public override void Tick(float deltaTime) {
-        /*
         _idleTimer -= deltaTime;
         if (_idleTimer <= 0.0f) {
             if (IsInChaseRange()) {
@@ -26,7 +25,6 @@ public class GuardIdleState : GuardBaseState {
             Move(deltaTime);
             _stateMachine.Animator.SetFloat(MovementSpeedHash, 0.0f, AnimationDamping, deltaTime);
         }
-        */
     }
     public override void Exit() {}
 }

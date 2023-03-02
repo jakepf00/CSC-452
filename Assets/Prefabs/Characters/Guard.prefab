@@ -725,11 +725,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8728600294188551198}
-  - component: {fileID: 8602507490524727682}
   - component: {fileID: 3965222928416939232}
   - component: {fileID: 1690571835087308188}
   - component: {fileID: 7829495093610145356}
   - component: {fileID: 4280041406609567876}
+  - component: {fileID: 6805202615578416214}
+  - component: {fileID: 4543818066292977756}
   m_Layer: 0
   m_Name: Guard
   m_TagString: Enemy
@@ -753,22 +754,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8602507490524727682
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2658321694363301004}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e31f3a792584826eca73c89a5b3c4979, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _controller: {fileID: 1690571835087308188}
-  _verticalVelocity: 10
-  _gravityModifier: 5
-  _drag: 0.1
 --- !u!114 &3965222928416939232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -781,8 +766,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f74860f8c2e4d5c1b158d3595261f27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  <CharacterController>k__BackingField: {fileID: 1690571835087308188}
   <Animator>k__BackingField: {fileID: 2664146015539208562}
+  <ForceReceiver>k__BackingField: {fileID: 4543818066292977756}
   <Health>k__BackingField: {fileID: 4280041406609567876}
+  <NavMeshAgent>k__BackingField: {fileID: 6805202615578416214}
+  <MovementSpeed>k__BackingField: 5
+  <PlayerChaseRange>k__BackingField: 7
+  <PlayerAttackRange>k__BackingField: 1
+  Patrolpoints: []
 --- !u!143 &1690571835087308188
 CharacterController:
   m_ObjectHideFlags: 0
@@ -826,6 +818,45 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _healthMaximum: 100
+--- !u!195 &6805202615578416214
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2658321694363301004}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.25
+  m_Speed: 3.5
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 1.8
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &4543818066292977756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2658321694363301004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27130564e2111cd299991da6ba9c9558, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _controller: {fileID: 1690571835087308188}
+  _verticalVelocity: 10
+  _gravityModifier: 5
+  _drag: 0.1
+  _agent: {fileID: 6805202615578416214}
 --- !u!1 &2687097011290021437
 GameObject:
   m_ObjectHideFlags: 0

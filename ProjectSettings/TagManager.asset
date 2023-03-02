@@ -8,6 +8,8 @@ TagManager:
   - Enemy
   - NPC
   - Checkpoint
+  - FxTemporaire
+  - Patrolpoint
   layers:
   - Default
   - TransparentFX
