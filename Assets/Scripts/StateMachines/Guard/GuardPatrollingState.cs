@@ -8,6 +8,7 @@ public class GuardPatrollingState : GuardBaseState {
     }
     public override void Tick(float deltaTime) {
         if (HasReachedPatrolpoint()) {
+            _stateMachine.NavMeshAgent.ResetPath();
             _stateMachine.NavMeshAgent.velocity = Vector3.zero;
             _stateMachine.CurrentPatrolpoint = (_stateMachine.CurrentPatrolpoint + 1) % _stateMachine.Patrolpoints.Count;
             _stateMachine.SwitchState(new GuardIdleState(_stateMachine));

@@ -7,10 +7,14 @@ public class GuardChasingState : GuardBaseState {
     }
     public override void Tick(float deltaTime) {
         if (!IsInChaseRange()) {
+            _stateMachine.NavMeshAgent.ResetPath();
+            _stateMachine.NavMeshAgent.velocity = Vector3.zero;
             _stateMachine.SwitchState(new GuardIdleState(_stateMachine));
             return;
         }
         if (IsInAttackRange()) {
+            _stateMachine.NavMeshAgent.ResetPath();
+            _stateMachine.NavMeshAgent.velocity = Vector3.zero;
             _stateMachine.SwitchState(new GuardAttackingState(_stateMachine));
             return;
         }

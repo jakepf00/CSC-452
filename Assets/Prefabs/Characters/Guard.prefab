@@ -773,7 +773,7 @@ MonoBehaviour:
   <NavMeshAgent>k__BackingField: {fileID: 6805202615578416214}
   <MovementSpeed>k__BackingField: 5
   <PlayerChaseRange>k__BackingField: 7
-  <PlayerAttackRange>k__BackingField: 1
+  <PlayerAttackRange>k__BackingField: 3
   Patrolpoints: []
 --- !u!143 &1690571835087308188
 CharacterController:

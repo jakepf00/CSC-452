@@ -13,7 +13,7 @@ public class GuardImpactState : GuardBaseState {
             _stateMachine.SwitchState(new GuardIdleState(_stateMachine));
             return;
         }
-        //Move(deltaTime);
+        Move(deltaTime);
     }
     public override void Exit() {}
 }

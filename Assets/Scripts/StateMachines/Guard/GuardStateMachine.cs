@@ -10,7 +10,7 @@ public class GuardStateMachine : StateMachine {
     [field: SerializeField] public NavMeshAgent NavMeshAgent { get; private set; }
     [field: SerializeField] public float MovementSpeed { get; private set; } = 5.0f;
     [field: SerializeField] public float PlayerChaseRange { get; private set; } = 7.0f;
-    [field: SerializeField] public float PlayerAttackRange { get; private set; } = 1.0f;
+    [field: SerializeField] public float PlayerAttackRange { get; private set; } = 3.0f;
     public GameObject Player { get; private set; }
     public List<Transform> Patrolpoints = new List<Transform>();
     public int CurrentPatrolpoint { get; set; } = 0;
