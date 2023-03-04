@@ -13,7 +13,7 @@ public class GuardIdleState : GuardBaseState {
     {
         _idleTimer -= deltaTime;
         if (_idleTimer <= 0.0f) {
-            if (IsInChaseRange()) {
+            if (CanSeePlayer()) {
                 _stateMachine.SwitchState(new GuardChasingState(_stateMachine));
                 return;
             }

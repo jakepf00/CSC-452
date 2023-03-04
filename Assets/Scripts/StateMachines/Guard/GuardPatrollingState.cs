@@ -14,7 +14,7 @@ public class GuardPatrollingState : GuardBaseState {
             _stateMachine.SwitchState(new GuardIdleState(_stateMachine));
             return;
         }
-        if (IsInChaseRange()) {
+        if (CanSeePlayer()) {
             _stateMachine.SwitchState(new GuardChasingState(_stateMachine));
             return;
         }
