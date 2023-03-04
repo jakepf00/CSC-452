@@ -8,7 +8,7 @@ public abstract class GuardBaseState : State {
     protected const float AnimationDamping = 0.1f;
     protected const float RotationDamping = 10.0f;
     protected const float CrossFadeDuration = 1.0f;
-    private float _viewOffsetY = 1.0f;
+    float _viewOffsetY = 1.0f;
 
     protected GuardStateMachine _stateMachine;
 

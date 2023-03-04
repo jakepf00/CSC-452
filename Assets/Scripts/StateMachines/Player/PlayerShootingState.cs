@@ -5,14 +5,14 @@ public class PlayerShootingState : PlayerBaseState {
     Weapon _weapon;
     int _weaponIndex;
     bool _started = false;
-    DateTime stateEnterTime;
+    DateTime _stateEnterTime;
 
     public PlayerShootingState(PlayerStateMachine stateMachine, int weaponIndex) : base(stateMachine) {
         _weapon = _stateMachine.Weapons[weaponIndex];
         _weaponIndex = weaponIndex;
     }
     public override void Enter() {
-        stateEnterTime = System.DateTime.Now;
+        _stateEnterTime = System.DateTime.Now;
         _stateMachine.InputReader.AttackEvent += OnAttack;
         _stateMachine.Animator.CrossFadeInFixedTime(_weapon.ShootAnimationName, _weapon.TransitionTime);
         Shoot();
@@ -56,7 +56,7 @@ public class PlayerShootingState : PlayerBaseState {
 
     }
     void TryFullAuto() {
-        if (_weapon.FullAutoTime < 0 || System.DateTime.Now.Ticks < stateEnterTime.AddSeconds(_weapon.FullAutoTime).Ticks || !_stateMachine.InputReader.IsAttacking) { return; }
+        if (_weapon.FullAutoTime < 0 || System.DateTime.Now.Ticks < _stateEnterTime.AddSeconds(_weapon.FullAutoTime).Ticks || !_stateMachine.InputReader.IsAttacking) { return; }
         _stateMachine.SwitchState(new PlayerShootingState(_stateMachine, _weaponIndex));
     }
     Vector3 MoveWithCamera() {
@@ -69,7 +69,7 @@ public class PlayerShootingState : PlayerBaseState {
         return forward * _stateMachine.InputReader.MovementValue.y + right * _stateMachine.InputReader.MovementValue.x;
     }
     void OnAttack() {
-        if (_weapon.SemiAutoTime < 0 || System.DateTime.Now.Ticks < stateEnterTime.AddSeconds(_weapon.SemiAutoTime).Ticks) { return; }
+        if (_weapon.SemiAutoTime < 0 || System.DateTime.Now.Ticks < _stateEnterTime.AddSeconds(_weapon.SemiAutoTime).Ticks) { return; }
         _stateMachine.SwitchState(new PlayerShootingState(_stateMachine, _weaponIndex));
     }
     void Shoot() {

@@ -11,6 +11,7 @@ public class GuardStateMachine : StateMachine {
     [field: SerializeField] public float MovementSpeed { get; private set; } = 5.0f;
     [field: SerializeField] public float PlayerChaseRange { get; private set; } = 50.0f;
     [field: SerializeField] public float PlayerAttackRange { get; private set; } = 35.0f;
+    [field: SerializeField] public Weapon Weapon { get; private set; }
     public GameObject Player { get; private set; }
     public List<Transform> Patrolpoints = new List<Transform>();
     public int CurrentPatrolpoint { get; set; } = 0;
