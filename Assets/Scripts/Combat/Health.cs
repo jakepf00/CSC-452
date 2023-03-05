@@ -13,14 +13,11 @@ public class Health : MonoBehaviour {
     void Start() {
         HealthReset();
         if (gameObject.CompareTag("Player")) {
-            //UIController.Instance._healthSlider.maxValue = _healthMaximum;
-            //UIUpdate();
+            UIUpdate();
         }
     }
     public void HealthUpdate(int update) {
-        if (_healthCurrent == 0) {
-            return;
-        }
+        if (_healthCurrent == 0) { return; }
         if (update > 0) {
             _healthCurrent = Mathf.Min(_healthCurrent + update, _healthMaximum);
         }
@@ -30,7 +27,7 @@ public class Health : MonoBehaviour {
             if (IsDead()) DeathEvent?.Invoke();
         }
         if (gameObject.CompareTag("Player")) {
-            //UIUpdate();
+            UIUpdate();
         }
     }
     public void TakeDamage(int damage) {
@@ -39,14 +36,13 @@ public class Health : MonoBehaviour {
         DamageEvent?.Invoke();
         if (IsDead()) DeathEvent?.Invoke();
         if (gameObject.CompareTag("Player")) {
-            //UIUpdate();
+            UIUpdate();
         }
     }
-    //public void UIUpdate() {
-    //    UIController.Instance._healthText.text = _healthCurrent.ToString();
-    //    UIController.Instance._healthSlider.value = _healthCurrent;
-    //}
     public void HealthReset() {
         _healthCurrent = _healthMaximum;
+    }
+    public void UIUpdate() {
+        UIController.Instance._healthText.text = _healthCurrent.ToString();
     }
 }
