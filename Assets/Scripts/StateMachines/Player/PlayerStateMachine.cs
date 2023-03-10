@@ -45,9 +45,9 @@ public class PlayerStateMachine : StateMachine {
         MovementSpeed /= MovementSpeedAimMultiplier;
     }
     void OnDamage() {
-        //SwitchState(new PlayerImpactState(this));
+        SwitchState(new PlayerImpactState(this));
     }
     void OnDeath() {
-        //SwitchState(new PlayerDeathState(this));
+        SwitchState(new PlayerDeathState(this));
     }
 }
