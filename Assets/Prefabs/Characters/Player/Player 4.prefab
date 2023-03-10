@@ -4822,6 +4822,7 @@ GameObject:
   - component: {fileID: 7196752988105394906}
   - component: {fileID: 5716862894684495823}
   - component: {fileID: 2062141819396401191}
+  - component: {fileID: 2393361012186721227}
   m_Layer: 6
   m_Name: Player 4
   m_TagString: Player
@@ -4931,6 +4932,21 @@ MonoBehaviour:
   _verticalVelocity: 10
   _gravityModifier: 5
   _drag: 0.1
+--- !u!114 &2393361012186721227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017379457527812044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d5b4cc30736bc022899df7be192d13f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _AmmoMaximumPistol: 100
+  _AmmoMaximumRifle: 100
+  _AmmoMaximumShotgun: 100
 --- !u!1 &2850901255191913142
 GameObject:
   m_ObjectHideFlags: 0
