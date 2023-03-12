@@ -2,12 +2,12 @@ using System;
 using UnityEngine;
 
 public class Ammo : MonoBehaviour {
-    [SerializeField] int _AmmoMaximumPistol = 100;
-    [SerializeField] int _AmmoMaximumRifle = 100;
-    [SerializeField] int _AmmoMaximumShotgun = 100;
-    int _AmmoCurrentPistol = 0;
-    int _AmmoCurrentRifle = 0;
-    int _AmmoCurrentShotgun = 0;
+    [SerializeField] public int AmmoMaximumPistol { get; private set; } = 100;
+    [SerializeField] public int AmmoMaximumRifle { get; private set; } = 100;
+    [SerializeField] public int AmmoMaximumShotgun {get; private set; } = 100;
+    public int AmmoCurrentPistol { get; private set; } = 0;
+    public int AmmoCurrentRifle { get; private set; } = 0;
+    public int AmmoCurrentShotgun { get; private set; } = 0;
 
     void Start() {
         AmmoReset();
@@ -15,37 +15,37 @@ public class Ammo : MonoBehaviour {
     }
     public void AmmoUpdatePistol(int update) {
         if (update > 0) {
-            _AmmoCurrentPistol = Mathf.Min(_AmmoCurrentPistol + update, _AmmoMaximumPistol);
+            AmmoCurrentPistol = Mathf.Min(AmmoCurrentPistol + update, AmmoMaximumPistol);
         }
         else if (update < 0) {
-            _AmmoCurrentPistol = Mathf.Max(_AmmoCurrentPistol + update, 0);
+            AmmoCurrentPistol = Mathf.Max(AmmoCurrentPistol + update, 0);
         }
         UIUpdate();
     }
     public void AmmoUpdateRifle(int update) {
         if (update > 0) {
-            _AmmoCurrentRifle = Mathf.Min(_AmmoCurrentRifle + update, _AmmoMaximumRifle);
+            AmmoCurrentRifle = Mathf.Min(AmmoCurrentRifle + update, AmmoMaximumRifle);
         }
         else if (update < 0) {
-            _AmmoCurrentRifle = Mathf.Max(_AmmoCurrentRifle + update, 0);
+            AmmoCurrentRifle = Mathf.Max(AmmoCurrentRifle + update, 0);
         }
         UIUpdate();
     }
     public void AmmoUpdateShotgun(int update) {
         if (update > 0) {
-            _AmmoCurrentShotgun = Mathf.Min(_AmmoCurrentShotgun + update, _AmmoMaximumShotgun);
+            AmmoCurrentShotgun = Mathf.Min(AmmoCurrentShotgun + update, AmmoMaximumShotgun);
         }
         else if (update < 0) {
-            _AmmoCurrentShotgun = Mathf.Max(_AmmoCurrentShotgun + update, 0);
+            AmmoCurrentShotgun = Mathf.Max(AmmoCurrentShotgun + update, 0);
         }
         UIUpdate();
     }
     public void AmmoReset() {
-        _AmmoCurrentPistol = 0;
-        _AmmoCurrentRifle = 0;
-        _AmmoCurrentShotgun = 0;
+        AmmoCurrentPistol = 0;
+        AmmoCurrentRifle = 0;
+        AmmoCurrentShotgun = 0;
     }
     public void UIUpdate() {
-        //UIController.Instance._AmmoText.text = _AmmoCurrent.ToString();
+        //UIController.Instance.AmmoText.text = AmmoCurrent.ToString();
     }
 }

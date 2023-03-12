@@ -11,6 +11,7 @@ public class PlayerStateMachine : StateMachine {
     [field: SerializeField] public float JumpForce { get; private set; } = 20.0f;
     [field: SerializeField] public Health Health { get; private set; }
     [field: SerializeField] public Weapon[] Weapons { get; private set; }
+    [field: SerializeField] public Ammo Ammo { get; private set; }
     [field: SerializeField] public int CurrentWeapon { get; private set; } = 0;
     public Transform MainCameraTransform { get; private set; }
 

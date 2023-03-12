@@ -15,7 +15,18 @@ public class PlayerShootingState : PlayerBaseState {
         _stateEnterTime = System.DateTime.Now;
         _stateMachine.InputReader.AttackEvent += OnAttack;
         _stateMachine.Animator.CrossFadeInFixedTime(_weapon.ShootAnimationName, _weapon.TransitionTime);
-        Shoot();
+        if (_weapon.WeaponName == "Pistol" && _stateMachine.Ammo.AmmoCurrentPistol > 0) {
+            _stateMachine.Ammo.AmmoUpdatePistol(-1);
+            Shoot();
+        }
+        else if (_weapon.WeaponName == "Rifle" && _stateMachine.Ammo.AmmoCurrentRifle > 0) {
+            _stateMachine.Ammo.AmmoUpdateRifle(-1);
+            Shoot();
+        }
+        if (_weapon.WeaponName == "Shotgun" && _stateMachine.Ammo.AmmoCurrentShotgun > 0) {
+            _stateMachine.Ammo.AmmoUpdateShotgun(-1);
+            Shoot();
+        }
     }
     public override void Tick(float deltaTime) {
         float normalizedTime = _stateMachine.Animator.GetCurrentAnimatorStateInfo(0).normalizedTime;

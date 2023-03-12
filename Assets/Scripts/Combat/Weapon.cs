@@ -3,6 +3,7 @@ using UnityEngine;
 [Serializable]
 
 public class Weapon : MonoBehaviour {
+    [field: SerializeField] public string WeaponName { get; private set; }
     [field: SerializeField] public string AimAnimationName { get; private set; }
     [field: SerializeField] public string ShootAnimationName { get; private set; }
     [field: SerializeField] public string ReloadAnimationName { get; private set; }

@@ -112,6 +112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b4d0364285b1b2eb9c7924ff20b2204, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  <WeaponName>k__BackingField: Shotgun
   <AimAnimationName>k__BackingField: 
   <ShootAnimationName>k__BackingField: 
   <ReloadAnimationName>k__BackingField: 

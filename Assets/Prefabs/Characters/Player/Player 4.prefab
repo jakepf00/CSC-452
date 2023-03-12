@@ -4872,6 +4872,7 @@ MonoBehaviour:
   <Health>k__BackingField: {fileID: 5716862894684495823}
   <Weapons>k__BackingField:
   - {fileID: 4305238210749443448}
+  <Ammo>k__BackingField: {fileID: 2393361012186721227}
   <CurrentWeapon>k__BackingField: 0
 --- !u!114 &4919981511431075672
 MonoBehaviour:
